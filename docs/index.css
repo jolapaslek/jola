@@ -32,7 +32,7 @@ body {
 }
 .five {
   grid-area: 4/3/5/4;
-  background-color: #dd0000;
+  background-color: #ff00ff;
 }
 .main > div {
   display: flex;
