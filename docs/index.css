@@ -31,8 +31,10 @@ body {
 
 .four {
  grid-area: 5/3/7/6;
-  background-color: pink;
+  background-image: url(https://www.stockvault.net/data/2008/04/28/104992/preview16.jpg);
 }
+
+
 .five {
   grid-area: 4/3/5/4;
   background-color: #ff00ff;
