@@ -18,11 +18,9 @@ body {
 }
 
 
-      
-
 .two {
   grid-area: 1/4/5/6; 
-  background-color: blue;
+   background-image: url(https://www.stockvault.net/data/2013/02/15/141880/preview16.jpg);
 }
 
 .three {
