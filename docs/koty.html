@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Piękne Koty</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-image: url("kotki.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin-right: 200px;
+    
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #bbb;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: #FF00FF;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+a:link, a:visited {
+    font-color: yellow;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: #ff00cc;
+	padding: 10% 10%;
+}
+</style>
+</head>
+
+
+<body>
+
+<div class="header">
+  <h2>Piękne Koty</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>6 zalet posiadania kota</h2>
+      <div class="fakeimg" style="height:200px;"><img src="pobrane.jpg" style="height:150px;"></div>
+      <p>1.Koty są dyskretne</p>
+      <p>2.Koty są samodzielne</p>
+      <p>3.Posiadanie kota... wydłuża życie</p>
+      <p>4.Koty świetnie radzą sobie ze szkodnikami</p>
+      <p>5.Koty są miłymi towarzyszami dzieci</p>
+      <p>6.Kot do idealny przyjaciel dla całej twojej rodziny</p>
+    </div>
+    <div class="card">
+      <h2>Dlaczego warto żyć z kotem?</h2>
+      <div class="fakeimg" style="height:200px;"><img src ="pobrane1.jpg" style="height:150px;"></div>
+      <p>Kot to zdrowie! </p>
+      <p>Amerykańscy naukowcy co rusz przeprowadzają badania, w których udowodniają swoje teorie dotyczące wpływu kota na zdrowie właściciela. Tym razem, grupa badaczy z Uniwersytetu w Minnesocie dowiodła, że ludzie posiadający koty mają mniejsze skłonności do zawałów! Zatem jeśli mieszkamy z kotem, możemy cieszyć się faktem, że mamy aż o 30% mniejsze prawdopodobieństwo wystąpienia zawału od ludzi, którzy kocimi fanami nie są. Właściciele kotów są również mniej narażeni na inne choroby układu sercowo-naczyniowego, jak i udarów.</p>
+    </div>
+	<div class="card">
+      <h2>Rasy kotów</h2>
+      <div class="fakeimg" style="height:200px;"><img src ="kot.jpg" style="height:150px;"> <img src ="kot2.jpg" style="height:150px;"> <img src ="kot3.jpg" style="height:150px;"> <img src ="kot5.jpg" style="height:150px;"></div>
+      <p>Jest mnóstwo ras kotów.</p>
+      <p>Najfajniejsze są dachowce :).</p>
+    </div>
+    <div class="card">
+      <h2>Kocia muzyka</h2>
+      <div class="fakeimg" style="height:200px;"><img src ="kot_słuchawki.jpg" style="height:150px;"> <img src ="kot_słuchawki2.jpg" style="height:150px;"></div>
+      <p>Przykład kociej muzyki ;)</p>
+      <p>https://www.youtube.com/watch?v=wZZ7oFKsKzY&index=1&list=PLN-N09hzgS04gPjFnFn6rJkn9mV8WkeE8</p>
+      
+    </div>
+	<div class="card">
+      <h2>Kocie imiona</h2>
+      <div class="fakeimg" style="height:200px;"><img src ="foto3.jpg" style="height:150px;"></div>
+      <p>Imię jak imię ale podobno imię nadaje kotu określonego harakteru.</p>
+    </div>
+    <div class="card">
+      <h2>Koty znanych ludzi</h2>
+      <div class="fakeimg" style="height:200px;"><img src="socha.jpeg" style="height:150px;"> <img src="janda.jpg" style="height:150px;"></div
+      <p>Nie będę oryginalna, ale sławni ludzie mają koty :)</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>O mnie</h2>
+      <div class="fakeimg" style="height:100px;"><img src ="ja.jpg" style="height:60px;"></div>
+      <p>Zwariowana właścicielka własnego kota ;)</p>
+    </div>
+    <div class="card">
+      <h3>Ciekawe linki</h3>
+      <div class="fakeimg"><a href="https://www.electrolux.pl/wellbeing/discover/the-animalcare-collection/?gclid=EAIaIQobChMI_4jyrqOG2wIV3cmyCh0OAg0FEAAYASAAEgKDX_D_BwE&gclsrc=aw.ds&dclid=CNCJv7OjhtsCFYqqdwodHcIMDQ">odkurzacze</a></div><br>
+      <div class="fakeimg"><a href="http://www.zooplus.pl/shop/koty/kuwety_pielegnacja_kota/odswiezacz_kuwety">odświerzacze</a></div><br>
+      <div class="fakeimg"><a href="https://www.kociarze.pl/forum">forum</a></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
