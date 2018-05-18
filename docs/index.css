@@ -1,58 +1,51 @@
 body {
-font-size: 1.5em;
+  font-size: 1.5em;
 }
+
 .main {
-display: grid;
-grid-gap: 5px;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-height: 100vh;
-width: 100vw;
-}
-#link{
-color:black; 
-text-shadow: 2px 2px grey; 
-border-radius: 15px;    
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  width: 100vw;
 }
 .one {
 grid-area: 1 / 1 / 4 / 4;
-background-image: url(https://www.stockvault.net/data/2011/01/07/116981/preview16.jpg);
+background-image: url(https://github.com/jolapaslek/jola/blob/master/docs/kotki.jpg);
       background-size: cover;
+}
 
-  
 .two {
-grid-area: 1 / 4 / 5 / 6;
-background-image: url(https://www.stockvault.net/data/2009/12/12/112375/preview16.jpg);
-        background-size: cover;
+  grid-area: 1/4/5/6; 
+  background-color: blue;
 }
-.three {
-grid-area: 4 / 1 / 7 / 3;
-background-image: url(https://www.stockvault.net/data/2009/11/16/111888/preview16.jpg);
-        background-size: cover;
-}
-.four {
-grid-area: 5 / 3 / 7 / 6;
-background-image: url(https://www.stockvault.net/data/2010/10/27/115605/preview16.jpg);
-        background-size: cover;
 
+.three {
+  grid-area: 4/1/7/3; 
+  background-color: #dd0000;
+}
+
+.four {
+ grid-area: 5/3/7/6;
+  background-color: pink;
 }
 .five {
-grid-area: 4 / 3 / 5 / 4;
-background-image: url(https://www.stockvault.net/data/2011/04/18/122223/preview16.jpg);
-        background-size: cover;
-   
+  grid-area: 4/3/5/4;
+  background-color: #ff00ff;
 }
 .main > div {
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
+
 @media screen and (max-width: 600px) {
-.main {
-display: block;
-}
-.main > div {
-height: 200px;
-}
+  .main {
+    display: block;
+  }
+  .main > div {
+    height: 200px;
+  }
 }
