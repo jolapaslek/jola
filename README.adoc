@@ -1,6 +1,8 @@
 # Koty
 https://github.com/jolapaslek/jola/edit/master/README.adoc[kotki]
 
+image::kot4.jpg[c700x420,550]
+
    ** Męskie
 
     ** Żeńskie
@@ -19,3 +21,4 @@ https://github.com/jolapaslek/jola/edit/master/README.adoc[kotki]
 | kotek	|  – Kitek
 |===
 
+image::ckot2.jpg[c700x420,550]
