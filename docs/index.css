@@ -13,7 +13,7 @@ body {
 
 .one { 
   grid-area: 1/1/4/4; 
-  background-color: pink;
+  background-image: kotki.jpg;
 }
 
 .two {
