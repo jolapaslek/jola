@@ -1,11 +1,11 @@
-# Najpopularniejsze imiona kotków
+# Koty
 https://github.com/jolapaslek/jola/edit/master/README.adoc[kotki]
 
-   ** Gęstość	2347,7 os./km².
+   ** Męskie
 
-    ** Liczba ludności 767348 osób.
+    ** Żeńskie
 
-== Ludność Miasta na przestrzeni lat:
+== Najpopularniejsze imiona dla kotków
 
 |===
 | kotek	|  – Tuptuś
