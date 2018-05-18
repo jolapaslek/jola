@@ -41,6 +41,7 @@ background-size: cover;
 .five {
   grid-area: 4/3/5/4;
   background-color: #ff00ff;
+  background-size: cover;
 }
 .main > div {
   display: flex;
