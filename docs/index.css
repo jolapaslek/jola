@@ -1,51 +1,40 @@
-body {
-  font-size: 1.5em;
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="windows-1250">
+    <title>CSS Units: VW, FR</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+a:link, a:visited {
+    padding: 67px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
+a:hover, a:active {
+    background-color: #ff00cc;
+}
+</style>
+</head>
+<body>
 
-.main {
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  height: 100vh;
-  width: 100vw;
-}
-.one {
-grid-area: 1 / 1 / 4 / 4;
-background-image: url(https://github.com/jolapaslek/jola/blob/master/docs/kotki.jpg);
-      background-size: cover;
-}
+<div class="main">
+    <div class="one">
+   <div class="fakeimg" style="height:200px;"><img src="kot.jpg" style="height:150px;"> <img src="kot.jpg" style="height:150px;"></div>
+    </div>
+    <div class="two">
+     <div class="fakeimg" style="height:200px;"><img src="janda.jpg" style="height:150px;"> <img src="janda.jpg" style="height:150px;"></div>
+    </div>
+    <div class="three">
+      THREE
+    </div>
+    <div class="four">
+      FOUR
+    </div>
+    <div class="five">
+    <a href="koty.html">Piêkne Koty</a>
+    </div>
+</div>
 
-.two {
-  grid-area: 1/4/5/6; 
-  background-color: blue;
-}
-
-.three {
-  grid-area: 4/1/7/3; 
-  background-color: #dd0000;
-}
-
-.four {
- grid-area: 5/3/7/6;
-  background-color: pink;
-}
-.five {
-  grid-area: 4/3/5/4;
-  background-color: #ff00ff;
-}
-.main > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-@media screen and (max-width: 600px) {
-  .main {
-    display: block;
-  }
-  .main > div {
-    height: 200px;
-  }
-}
+</body>
+</html>
