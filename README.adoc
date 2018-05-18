@@ -1,3 +1,23 @@
 # jola
 https://github.com/jolapaslek/jola/edit/master/README.adoc[kotki]
 
+   ** Gęstość	2347,7 os./km².
+
+    ** Liczba ludności 767348 osób.
+
+== Ludność Miasta na przestrzeni lat:
+
+|===
+| kotek	|  – Tuptuś
+| 2005 r.	|  – 706 381 ↓
+| 2006 r.	|  – 704 859 ↓
+| 2007 r.	|  – 705 408 ↑
+| 2009 r.	|  – 703 357 ↓
+| 2011 r.	|  – 704 822 ↑
+| 2012 r.	|  – 704 622 ↓
+| 2013 r.	|  – 704 228 ↓
+| 2014 r.	|  – 704 532 ↑
+| 2015 r.	|  – 703 746 ↓
+| 2016 r.	|  – 702 947 ↓
+|===
+
