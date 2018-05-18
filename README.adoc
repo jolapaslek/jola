@@ -21,4 +21,4 @@ image::kot4.jpg[c700x420,550]
 | kotek	|  – Kitek
 |===
 
-image::ckot2.jpg[c700x420,550]
+image::kot2.jpg[c700x420,550]
