@@ -1,6 +1,6 @@
 # Koty
 
-https://goo.gl/vervgq[Kotki]
+https://jolapaslek.github.io/jola/[kotki]
 
 
 image::kot4.jpg[c700x420,550]
